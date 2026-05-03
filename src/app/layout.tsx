@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   title: "So Hyung | Full-Stack Developer",
   description: "Full-stack developer based in New Zealand, building clean and functional web applications.",
   openGraph: {
-    title: "So Hyung | Full-Stack Developer",
-    description: "Full-stack developer based in New Zealand, building clean and functional web applications.",
+    title: "So Hyung | Full-Stack Developer based in New Zealand",
+    description: "Full-stack developer based in New Zealand, building clean and functional web applications with React, Next.js, Node.js, and MongoDB. Open to new opportunities.",
     url: "https://my-portfolio-eight-gamma-68.vercel.app",
     siteName: "So Hyung Portfolio",
     images: [
