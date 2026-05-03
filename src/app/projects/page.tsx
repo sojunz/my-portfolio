@@ -15,7 +15,7 @@ const projects = [
     title: "Todo App",
     description: "A clean and simple todo application for managing daily tasks.",
     tech: ["React", "Node.js", "MongoDB"],
-    live: "",
+    live: "https://todo-app-rho-five-49.vercel.app",
     github: "https://github.com/sojunz/todo-app",
   },
 ];
