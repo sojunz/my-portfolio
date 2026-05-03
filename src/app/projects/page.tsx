@@ -6,15 +6,16 @@ const projects = [
   {
     title: "ForgetMeNot",
     description:
-      "A focus and task management app with AI-driven task prioritization using the Anthropic API.",
+      "A focus and task management app with AI-driven task prioritization using the Anthropic API. Features real JWT authentication and MongoDB user data.",
     tech: ["React", "Node.js", "MongoDB", "Express", "Anthropic API"],
     live: "https://forgetmenot-fixed.vercel.app",
     github: "https://github.com/sojunz/forgetmenot-fixed",
   },
   {
-    title: "Todo App",
-    description: "A clean and simple todo application for managing daily tasks.",
-    tech: ["React", "Node.js", "MongoDB"],
+    title: "HARU Todo App",
+    description:
+      "A clean todo app built while learning full-stack development. Note: authentication is currently placeholder-based — a proper JWT system is planned for a future update!",
+    tech: ["React", "Node.js", "MongoDB", "Express"],
     live: "https://todo-app-rho-five-49.vercel.app",
     github: "https://github.com/sojunz/todo-app",
   },
