@@ -10,8 +10,29 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "My personal portfolio site",
+  title: "So Hyung | Full-Stack Developer",
+  description: "Full-stack developer based in New Zealand, building clean and functional web applications.",
+  openGraph: {
+    title: "So Hyung | Full-Stack Developer",
+    description: "Full-stack developer based in New Zealand, building clean and functional web applications.",
+    url: "https://my-portfolio-eight-gamma-68.vercel.app",
+    siteName: "So Hyung Portfolio",
+    images: [
+      {
+        url: "/profile.png",
+        width: 800,
+        height: 800,
+        alt: "So Hyung",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "So Hyung | Full-Stack Developer",
+    description: "Full-stack developer based in New Zealand, building clean and functional web applications.",
+    images: ["/profile.png"],
+  },
 };
 
 export default function RootLayout({
